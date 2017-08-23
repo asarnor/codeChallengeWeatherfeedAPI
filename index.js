@@ -21,9 +21,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/api', api);
 
-app.listen(3000, () => {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
 
-    console.log('This app listening on port 3000!');
+    console.log(`This app listening on port ${PORT}`);
 
 });
 
