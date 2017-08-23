@@ -12,6 +12,7 @@
     "author": "Abdul Sarnor",
     "license": "ISC",
     "dependencies": {
+        "@google-cloud/storage": "^1.2.1",
         "bluebird": "^3.5.0",
         "body-parser": "^1.17.2",
         "express": "^4.15.4",
